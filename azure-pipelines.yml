@@ -13,10 +13,6 @@ steps:
     useXcpretty: 'false'
     args: '-archivePath $(agent.buildDirectory)/HelloiOS'
 
-- task: CocoaPods@0
-  displayName: 'Install dependencies'
-  inputs:
-
 - task: ArchiveFiles@2
   displayName: 'Package .xcarchive into a zip file'
   inputs:
