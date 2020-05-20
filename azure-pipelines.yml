@@ -8,7 +8,7 @@ steps:
     actions: 'clean build analyze archive'
     sdk: 'iphoneos'
     scheme: 'HelloiOS'
-    configuration: 'Debug'
+    configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
     useXcpretty: 'false'
     args: '-archivePath $(agent.buildDirectory)/HelloiOS'
