@@ -2,7 +2,7 @@ pool:
   vmImage: 'macOS 10.14'
 
 steps:
-- task: Xcode@10
+- task: Xcode@4
   displayName: 'Build the app using Xcode'
   inputs:
     actions: 'clean build analyze archive'
